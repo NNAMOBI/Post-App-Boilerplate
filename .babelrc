@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./src"],
+            "alias": {
+                "components":"src/Components",
+                "pages": "src/Pages",
+                "utils": "src/Custom",
+                "common": "src/Common",
+                "service": "src/Service",
+                "redux": "src/Redux",
+                "hooks": "src/Hooks"
+            }
+        }]
+    ]
+}
